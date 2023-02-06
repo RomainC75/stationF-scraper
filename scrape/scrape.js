@@ -77,6 +77,7 @@ module.exports = class Scrape {
     await cluster.idle();
     await cluster.close();
   }
+  
 
   async getInfosFromPage(page) {
     const about = await page.$eval(
@@ -90,7 +91,7 @@ module.exports = class Scrape {
       (elements) => elements.map((el) => el.textContent)
     );
     const cleanedJobsList = jobsList.map((txt) => txt.trim());
-    
+
     this.saveInfosFromPageToDb(title, about, link, cleanedJobsList);
   }
 
