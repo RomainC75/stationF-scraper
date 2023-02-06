@@ -1,11 +1,14 @@
 # StationF scraper
 
-Wanna get the data about startup jobs
+Wanna get the data about startup jobs ? 
+
+<img align="left" height="370px" width="700px" alt="memoryGame-image" src="https://github.com/RomainC75/stationF-scraper/raw/master/assets/scraper.png"/>
 
 ## Description
 
-Just a little script to put the content of the job offers a mysql database from the station F website
-
+Just a little script to put the content of the job offers a mysql database from the station F website. 
+I just wanted to use OOP including the models which are written with mysql2. 💪
+ 
 ## Getting Started
 
 ### Dependencies
